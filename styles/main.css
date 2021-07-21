@@ -77,6 +77,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
   }
