@@ -14,6 +14,7 @@
 .container {
   width: 100%;
   height: 100%;
+
   background-color: #3cdbc0;
 }
 
@@ -23,14 +24,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
-  height: 100px;
+  height: 150px;
   background-color: white;
 }
 
 .image {
   padding: 10px;
-  margin: 10px;
   width: 155px;
   height: 80px;
 }
@@ -44,4 +45,29 @@
   font-family: var(--fontfamily);
   color: black;
   text-transform: uppercase;
+}
+
+.blog {
+  padding: 5px;
+}
+.contacto {
+  padding: 5px;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 30px;
+  color: var(--colortexto);
+  font-family: var(--fontfamily);
+  text-transform: capitalize;
+  font-weight: 800;
+  line-height: 1.5;
 }
