@@ -71,3 +71,24 @@
   font-weight: 800;
   line-height: 1.5;
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .blog {
+    padding: 10px;
+  }
+  .contacto {
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 40px;
+  }
+}
